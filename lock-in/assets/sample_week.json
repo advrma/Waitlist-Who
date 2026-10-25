@@ -1,0 +1,320 @@
+{
+ "settings": {
+  "buffer_minutes": 10,
+  "max_block_minutes": 90,
+  "break_minutes": 10,
+  "min_block_minutes": 25
+ },
+ "days": [
+  {
+   "date": "2026-10-26",
+   "day_start": "07:00",
+   "day_end": "23:30",
+   "fixed": [
+    {
+     "title": "Wake up + shower",
+     "start": "07:00",
+     "end": "07:30",
+     "kind": "routine"
+    },
+    {
+     "title": "CSE 340 lecture",
+     "start": "10:30",
+     "end": "11:45",
+     "kind": "class"
+    }
+   ],
+   "flexible": [
+    {
+     "title": "Lunch",
+     "minutes": 30,
+     "earliest": "12:00",
+     "latest": "13:20"
+    },
+    {
+     "title": "Gym",
+     "minutes": 60,
+     "earliest": "17:00",
+     "latest": "20:30"
+    },
+    {
+     "title": "Dinner",
+     "minutes": 30,
+     "earliest": "18:30",
+     "latest": "20:00"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "day_start": "07:00",
+   "day_end": "23:30",
+   "fixed": [
+    {
+     "title": "Wake up + shower",
+     "start": "07:00",
+     "end": "07:30",
+     "kind": "routine"
+    },
+    {
+     "title": "ECN 211 lecture",
+     "start": "13:30",
+     "end": "14:45",
+     "kind": "class"
+    }
+   ],
+   "flexible": [
+    {
+     "title": "Lunch",
+     "minutes": 30,
+     "earliest": "12:00",
+     "latest": "13:20"
+    },
+    {
+     "title": "Gym",
+     "minutes": 60,
+     "earliest": "17:00",
+     "latest": "20:30"
+    },
+    {
+     "title": "Dinner",
+     "minutes": 30,
+     "earliest": "18:30",
+     "latest": "20:00"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "day_start": "07:00",
+   "day_end": "23:30",
+   "fixed": [
+    {
+     "title": "Wake up + shower",
+     "start": "07:00",
+     "end": "07:30",
+     "kind": "routine"
+    },
+    {
+     "title": "CSE 340 lecture",
+     "start": "10:30",
+     "end": "11:45",
+     "kind": "class"
+    },
+    {
+     "title": "Interview: Acme recruiter call",
+     "start": "16:00",
+     "end": "16:30",
+     "kind": "interview"
+    }
+   ],
+   "flexible": [
+    {
+     "title": "Lunch",
+     "minutes": 30,
+     "earliest": "12:00",
+     "latest": "13:20"
+    },
+    {
+     "title": "Gym",
+     "minutes": 60,
+     "earliest": "17:00",
+     "latest": "20:30"
+    },
+    {
+     "title": "Dinner",
+     "minutes": 30,
+     "earliest": "18:30",
+     "latest": "20:00"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "day_start": "07:00",
+   "day_end": "23:30",
+   "fixed": [
+    {
+     "title": "Wake up + shower",
+     "start": "07:00",
+     "end": "07:30",
+     "kind": "routine"
+    },
+    {
+     "title": "ECN 211 lecture",
+     "start": "13:30",
+     "end": "14:45",
+     "kind": "class"
+    },
+    {
+     "title": "ECN 211 midterm",
+     "start": "09:00",
+     "end": "10:15",
+     "kind": "exam"
+    }
+   ],
+   "flexible": [
+    {
+     "title": "Lunch",
+     "minutes": 30,
+     "earliest": "12:00",
+     "latest": "13:20"
+    },
+    {
+     "title": "Gym",
+     "minutes": 60,
+     "earliest": "17:00",
+     "latest": "20:30"
+    },
+    {
+     "title": "Dinner",
+     "minutes": 30,
+     "earliest": "18:30",
+     "latest": "20:00"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "day_start": "07:00",
+   "day_end": "23:30",
+   "fixed": [
+    {
+     "title": "Wake up + shower",
+     "start": "07:00",
+     "end": "07:30",
+     "kind": "routine"
+    },
+    {
+     "title": "CSE 340 lecture",
+     "start": "10:30",
+     "end": "11:45",
+     "kind": "class"
+    }
+   ],
+   "flexible": [
+    {
+     "title": "Lunch",
+     "minutes": 30,
+     "earliest": "12:00",
+     "latest": "13:20"
+    },
+    {
+     "title": "Gym",
+     "minutes": 60,
+     "earliest": "17:00",
+     "latest": "20:30"
+    },
+    {
+     "title": "Dinner",
+     "minutes": 30,
+     "earliest": "18:30",
+     "latest": "20:00"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "day_start": "07:00",
+   "day_end": "23:30",
+   "fixed": [
+    {
+     "title": "Wake up + shower",
+     "start": "07:00",
+     "end": "07:30",
+     "kind": "routine"
+    }
+   ],
+   "flexible": [
+    {
+     "title": "Lunch",
+     "minutes": 30,
+     "earliest": "12:00",
+     "latest": "13:20"
+    },
+    {
+     "title": "Gym",
+     "minutes": 60,
+     "earliest": "17:00",
+     "latest": "20:30"
+    },
+    {
+     "title": "Dinner",
+     "minutes": 30,
+     "earliest": "18:30",
+     "latest": "20:00"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-01",
+   "day_start": "07:00",
+   "day_end": "23:30",
+   "fixed": [
+    {
+     "title": "Wake up + shower",
+     "start": "07:00",
+     "end": "07:30",
+     "kind": "routine"
+    }
+   ],
+   "flexible": [
+    {
+     "title": "Lunch",
+     "minutes": 30,
+     "earliest": "12:00",
+     "latest": "13:20"
+    },
+    {
+     "title": "Gym",
+     "minutes": 60,
+     "earliest": "17:00",
+     "latest": "20:30"
+    },
+    {
+     "title": "Dinner",
+     "minutes": 30,
+     "earliest": "18:30",
+     "latest": "20:00"
+    }
+   ]
+  }
+ ],
+ "tasks": [
+  {
+   "title": "CSE 340 HW4",
+   "minutes_left": 120,
+   "due": "2026-10-26 23:59",
+   "priority": "high"
+  },
+  {
+   "title": "ECN 211 reading",
+   "minutes_left": 45,
+   "due": "2026-10-27 09:00",
+   "priority": "medium"
+  },
+  {
+   "title": "Study for ECN 211 midterm",
+   "minutes_left": 360,
+   "due": "2026-10-29 09:00",
+   "priority": "high"
+  },
+  {
+   "title": "Prep for Acme interview",
+   "minutes_left": 60,
+   "due": "2026-10-28 16:00",
+   "priority": "high"
+  },
+  {
+   "title": "STATS project draft",
+   "minutes_left": 180,
+   "due": "2026-10-30 23:59",
+   "priority": "medium"
+  },
+  {
+   "title": "Resume edits",
+   "minutes_left": 30,
+   "priority": "low"
+  }
+ ]
+}
